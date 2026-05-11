@@ -1,0 +1,36 @@
+{
+  "accuracy": 100.0,
+  "precision": 100.0,
+  "recall": 100.0,
+  "f1_score": 100.0,
+  "roc_auc": 100.0,
+  "cv_accuracy_mean": 100.0,
+  "cv_accuracy_std": 0.0,
+  "train_samples": 160,
+  "test_samples": 40,
+  "feature_importances": {
+    "url_length": 0.20218462671305018,
+    "has_at_symbol": 0.0,
+    "has_ip_address": 0.0,
+    "subdomain_count": 0.0054248731937769305,
+    "uses_https": 0.2844360234380691,
+    "has_suspicious_keywords": 0.09608188572193985,
+    "suspicious_keyword_count": 0.09048001820049248,
+    "has_suspicious_tld": 0.017596079402702317,
+    "has_brand_impersonation": 0.00482094670972417,
+    "special_char_count": 0.18672305786478785,
+    "has_double_slash": 0.0,
+    "path_depth": 0.08080661447126135,
+    "has_query_params": 0.0013943907231480771,
+    "uses_url_shortener": 0.00044360195821654513,
+    "digit_ratio": 0.0018298841820652556,
+    "domain_length": 0.02777799742076589
+  },
+  "top_features": [
+    "uses_https",
+    "url_length",
+    "special_char_count",
+    "has_suspicious_keywords",
+    "suspicious_keyword_count"
+  ]
+}
