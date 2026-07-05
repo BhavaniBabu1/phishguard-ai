@@ -5,7 +5,7 @@ Extracts numerical features from URLs for ML classification.
 Each feature captures a known signal used by phishing sites.
 """
 
-import re
+
 import urllib.parse
 from typing import Dict, List
 
