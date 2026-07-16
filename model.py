@@ -11,8 +11,8 @@ Run this once before starting the Flask app:
 import os
 import pickle
 import json
-import numpy
-import pandas
+import numpy as np
+import pandas as pd
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
