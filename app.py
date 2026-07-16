@@ -5,9 +5,9 @@ Serves the web UI and exposes prediction + history API endpoints.
 """
 
 import os
-import re
+import random
 import json
-import numpy as np
+import numpy
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify
 from model import load_model
