@@ -4,7 +4,7 @@ app.py - Flask Backend
 Serves the web UI and exposes prediction + history API endpoints.
 """
 
-
+import os
 import re
 import json
 import numpy as np
